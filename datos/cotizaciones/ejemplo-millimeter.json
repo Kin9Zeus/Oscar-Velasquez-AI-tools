@@ -1,0 +1,135 @@
+{
+  "_nota": "EJEMPLO. Los precios unitarios son placeholders para demostrar el formato — Oscar debe reemplazarlos por su lista real antes de enviar nada. La estructura (bloque, espesores, fabricación, flete, plan de pagos y condiciones) sí refleja el modelo comercial de MILLIMETER descrito en el brochure y en el speech de ventas.",
+
+  "cotizacion": {
+    "numero": "MM-2026-0142",
+    "empresa": "millimeter",
+    "fecha": "2026-08-13",
+    "validez_dias": 21,
+    "idioma": "en",
+    "moneda": "USD",
+    "asunto": "Custom floating vanity — Cream Travertine",
+    "notas_intro": "Ultra-thin natural stone vanity: curved front door, integrated sink, drawer fronts and trim. Material selected block-direct from the quarry; photos and video of the actual block are submitted for written approval before the order is released.",
+    "preparado_por": {
+      "nombre": "Oscar Velásquez",
+      "cargo": "Design & Project Development",
+      "correo": "info@millimeterbycasanova.com",
+      "telefono": ""
+    },
+    "cliente": {
+      "nombre": "Wittman Residence",
+      "empresa": "c/o General Contractor",
+      "direccion": "Austin, TX",
+      "correo": "",
+      "telefono": ""
+    }
+  },
+
+  "secciones": [
+    {
+      "titulo": "MILLIMETER 5 mm — Vanity body & integrated sink",
+      "nota": "5 mm real natural stone over structural substrate. Mitered corners, seams aligned to vein direction.",
+      "items": [
+        {
+          "descripcion": "Vanity body panels — front, sides and returns",
+          "detalle": "Includes mitered corners and continuous vein match across faces",
+          "material": "Cream Travertine",
+          "espesor": "5mm",
+          "acabado": "Honed",
+          "cantidad": 46.5,
+          "unidad": "sqft",
+          "precio_unitario": 86
+        },
+        {
+          "descripcion": "Integrated stone sink basin",
+          "detalle": "Seamless basin fabricated from the same block; hand-finished internal radius",
+          "material": "Cream Travertine",
+          "espesor": "5mm",
+          "acabado": "Honed",
+          "cantidad": 1,
+          "unidad": "ea",
+          "precio_unitario": 3450
+        }
+      ]
+    },
+    {
+      "titulo": "MILLIMETER 1 mm — Curved door, drawer fronts & trim",
+      "nota": "1 mm real natural stone. This is the thickness that makes the curved door possible — a 2 cm slab cannot take this radius.",
+      "items": [
+        {
+          "descripcion": "Curved front door",
+          "detalle": "Single curved panel, R 340 mm, continuous vein wrap",
+          "material": "Cream Travertine",
+          "espesor": "1mm",
+          "acabado": "Honed",
+          "cantidad": 14.2,
+          "unidad": "sqft",
+          "precio_unitario": 124
+        },
+        {
+          "descripcion": "Drawer fronts (3)",
+          "material": "Cream Travertine",
+          "espesor": "1mm",
+          "acabado": "Honed",
+          "cantidad": 9.6,
+          "unidad": "sqft",
+          "precio_unitario": 118
+        },
+        {
+          "descripcion": "Perimeter trim and edge banding",
+          "material": "Cream Travertine",
+          "espesor": "1mm",
+          "acabado": "Honed",
+          "cantidad": 7.4,
+          "unidad": "sqft",
+          "precio_unitario": 112
+        }
+      ]
+    },
+    {
+      "titulo": "Traditional natural stone 2 cm — Countertop",
+      "nota": "Where mass and visual weight are wanted, we keep traditional thickness. Same block, so the vein reads continuous with the MILLIMETER elements.",
+      "items": [
+        {
+          "descripcion": "Countertop slab with 2\" mitered edge",
+          "material": "Cream Travertine",
+          "espesor": "2cm",
+          "acabado": "Honed",
+          "cantidad": 21.8,
+          "unidad": "sqft",
+          "precio_unitario": 92
+        }
+      ]
+    }
+  ],
+
+  "cargos": [
+    { "concepto": "Quarry block selection — photo & video documentation", "monto": 480 },
+    { "concepto": "CNC fabrication, lamination & curving process", "monto": 4200 },
+    { "concepto": "Custom crating", "monto": 640 },
+    { "concepto": "Freight — Houston, TX → Austin, TX", "monto": 890 },
+    { "concepto": "Installation supervision — 1 day on site", "monto": 1200 }
+  ],
+
+  "impuestos": [
+    { "concepto": "TX state sales tax", "porcentaje": 8.25 }
+  ],
+
+  "pagos": [
+    { "hito": "Deposit — released upon written block approval", "porcentaje": 50 },
+    { "hito": "Upon completion of fabrication, prior to crating", "porcentaje": 40 },
+    { "hito": "Upon delivery on site", "porcentaje": 10 }
+  ],
+
+  "condiciones": [
+    "We do not work from stock. Each project is selected block-direct from the quarry; photos and video of the actual block are submitted for written approval before the order is released.",
+    "We do not supply physical samples. Every block is unique, and we prefer the client to approve exactly the material that will be used in the project.",
+    "Slab size depends on the block; the usual working format is approximately 120 x 76 inches.",
+    "Natural stone carries inherent variation in vein, tone and background. Variation is a property of the material, not a defect.",
+    "Lead time: 6–8 weeks from written block approval to delivery, subject to quarry availability.",
+    "Prices assume substrate and cabinet carcass are supplied and installed by others, plumb and square, ready to receive stone.",
+    "Field measurements must be confirmed on site before fabrication is released. Changes after release are quoted separately.",
+    "MILLIMETER surfaces contain less than 0.5% silica, versus 40–80% in engineered quartz — safer handling for fabricators and installers.",
+    "This quotation is valid for the period stated above. Quarry pricing is subject to change after that date."
+  ]
+}

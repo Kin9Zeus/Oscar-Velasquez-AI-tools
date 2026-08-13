@@ -1,0 +1,119 @@
+{
+  "_nota": "EJEMPLO. Estructura de propuesta de servicios de diseño interior. Los honorarios son placeholders — reemplazar por la tarifa real antes de enviar.",
+
+  "cotizacion": {
+    "numero": "ALI-2026-088",
+    "empresa": "aspen-leaf",
+    "fecha": "2026-08-13",
+    "validez_dias": 30,
+    "idioma": "en",
+    "moneda": "USD",
+    "asunto": "Interior design services — Goodrich Residence",
+    "notas_intro": "Full-service interior design for the great room, dining room and three upper baths. Scope covers concept, material and FF&E selection, construction documentation, procurement management and site coordination through installation.",
+    "preparado_por": {
+      "nombre": "Oscar Velásquez",
+      "cargo": "Designer",
+      "correo": "",
+      "telefono": ""
+    },
+    "cliente": {
+      "nombre": "Mr. & Mrs. Goodrich",
+      "empresa": "",
+      "direccion": "Aspen, CO",
+      "correo": "",
+      "telefono": ""
+    }
+  },
+
+  "secciones": [
+    {
+      "titulo": "Phase 1 — Concept & Schematic Design",
+      "items": [
+        {
+          "descripcion": "Programming, site survey and concept direction",
+          "detalle": "Client interview, existing conditions survey, two concept directions presented",
+          "cantidad": 22,
+          "unidad": "hr",
+          "precio_unitario": 185
+        },
+        {
+          "descripcion": "Space planning and preliminary floor plans",
+          "cantidad": 18,
+          "unidad": "hr",
+          "precio_unitario": 185
+        }
+      ]
+    },
+    {
+      "titulo": "Phase 2 — Design Development",
+      "items": [
+        {
+          "descripcion": "Material and finish selection, storyboards per room",
+          "detalle": "Includes finish schedule with vendor links, per specialty (tile, plumbing, lighting, furniture)",
+          "cantidad": 5,
+          "unidad": "rooms",
+          "precio_unitario": 1450
+        },
+        {
+          "descripcion": "3D modeling and photorealistic renderings",
+          "detalle": "Three views per room, up to two rounds of revisions included",
+          "cantidad": 5,
+          "unidad": "rooms",
+          "precio_unitario": 1150
+        },
+        {
+          "descripcion": "FF&E specification package",
+          "cantidad": 26,
+          "unidad": "hr",
+          "precio_unitario": 185
+        }
+      ]
+    },
+    {
+      "titulo": "Phase 3 — Documentation, Procurement & Site",
+      "items": [
+        {
+          "descripcion": "Construction documentation and finish schedules",
+          "cantidad": 34,
+          "unidad": "hr",
+          "precio_unitario": 185
+        },
+        {
+          "descripcion": "Procurement management and expediting",
+          "detalle": "Purchase orders, vendor coordination, freight tracking, damage claims",
+          "cantidad": 1,
+          "unidad": "ls",
+          "precio_unitario": 6800
+        },
+        {
+          "descripcion": "Site visits and installation supervision",
+          "cantidad": 6,
+          "unidad": "visits",
+          "precio_unitario": 950
+        }
+      ]
+    }
+  ],
+
+  "cargos": [
+    { "concepto": "Reimbursable allowance — printing, samples, courier", "monto": 850 }
+  ],
+
+  "pagos": [
+    { "hito": "Retainer on signature — applied to final invoice", "porcentaje": 25 },
+    { "hito": "Completion of Phase 1", "porcentaje": 20 },
+    { "hito": "Completion of Phase 2", "porcentaje": 30 },
+    { "hito": "Monthly through Phase 3, final upon installation", "porcentaje": 25 }
+  ],
+
+  "condiciones": [
+    "Fees cover design services only. Furniture, fixtures, equipment, freight and installation labor are billed separately at cost plus the agreed procurement fee.",
+    "Two rounds of revisions per rendering are included. Additional rounds are billed hourly at the rate stated above.",
+    "Changes to approved scope, layout or specification after sign-off are billed as additional services.",
+    "Lead times quoted by vendors are estimates and are not guaranteed by the designer.",
+    "Natural materials carry inherent variation in color, vein and texture. Variation is not a defect.",
+    "Client approval on the finish schedule is required in writing before any purchase order is released.",
+    "Invoices are due within 15 days of issue. Work may pause on accounts past 30 days.",
+    "This proposal is valid for the period stated above."
+  ]
+}

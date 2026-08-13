@@ -1,0 +1,533 @@
+{
+  "_nota": "EJEMPLO DE DEMOSTRACIÓN. Reconstrucción del storyboard Goodrich a partir de las láminas que compartió Oscar, para mostrar cómo funciona el sistema. Los nombres de proveedor y las URL son de referencia y DEBEN reemplazarse por los enlaces exactos de producto antes de enviar nada a un cliente.",
+
+  "proyecto": {
+    "codigo": "GOODRICH",
+    "nombre": "Goodrich Residence",
+    "cliente": "Mr. & Mrs. Goodrich",
+    "ubicacion": "Aspen, CO",
+    "empresa": "aspen-leaf",
+    "fecha": "2026-08-13",
+    "disenador": "Oscar Velásquez",
+    "idioma": "en",
+    "portada": "aspen_leaf_interiors/project_graphic_process_example/great_room_renderings_1.jpeg"
+  },
+
+  "espacios": [
+    {
+      "id": "upper-bath-3",
+      "nombre": "Upper Bath 3",
+      "planos": [
+        {
+          "titulo": "FLOOR PLAN",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/upper_bath_3_floor_plan.jpeg"
+        }
+      ],
+      "renders": [
+        {
+          "titulo": "RENDERING — Vanity wall",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/upper_bath_3_renderings_1.jpeg"
+        },
+        {
+          "titulo": "RENDERING — Shower",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/upper_bath_3_renderings_2.jpeg"
+        },
+        {
+          "titulo": "RENDERING — Overall",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/upper_bath_3_renderings_3.jpeg"
+        }
+      ],
+      "elementos": [
+        {
+          "codigo": "T-12",
+          "categoria": "tile",
+          "nombre": "Chevron marble mosaic with brass inlay",
+          "ubicacion": "Vanity wall — full height",
+          "proveedor": "Artistic Tile",
+          "url": "https://www.artistictile.com/",
+          "imagen": "datos/imagenes/goodrich/t-12-chevron-mosaic.jpg",
+          "acabado": "Polished",
+          "formato": "Chevron mosaic on 12\" x 12\" mesh",
+          "color": "Calacatta white / Brass",
+          "cantidad": { "valor": 96, "unidad": "sqft" },
+          "precio_unitario": 78,
+          "notas": "Brass inlay to align with mirror frames. Confirm dry-lay before setting.",
+          "hotspot": { "render": 0, "x": 57, "y": 45 }
+        },
+        {
+          "codigo": "T-10",
+          "categoria": "tile",
+          "nombre": "Book-matched marble slab — backsplash & shower floor",
+          "ubicacion": "Backsplash / Shower floor",
+          "proveedor": "Ann Sacks",
+          "url": "https://www.annsacks.com/",
+          "imagen": "datos/imagenes/goodrich/t-10-backsplash-slab.jpg",
+          "acabado": "Honed",
+          "formato": "Slab, book-matched pair",
+          "color": "Calacatta Viola",
+          "cantidad": { "valor": 34, "unidad": "sqft" },
+          "precio_unitario": 145,
+          "notas": "Vein direction must be verified against the slab photo before cutting."
+        },
+        {
+          "codigo": "T-11",
+          "categoria": "tile",
+          "nombre": "Wood-look porcelain — shower walls",
+          "ubicacion": "Shower enclosure — walls",
+          "proveedor": "Porcelanosa",
+          "url": "https://www.porcelanosa-usa.com/",
+          "imagen": "datos/imagenes/goodrich/t-11-shower-wall-tile.jpg",
+          "acabado": "Matte, textured",
+          "formato": "12\" x 48\"",
+          "color": "Weathered grey",
+          "cantidad": { "valor": 112, "unidad": "sqft" },
+          "precio_unitario": 22,
+          "notas": "Stack bond, no offset. Grout to match tile body."
+        },
+        {
+          "codigo": "S-06",
+          "categoria": "countertop",
+          "nombre": "Honed green-grey marble countertop",
+          "ubicacion": "Double vanity + shower bench",
+          "proveedor": "Cosentino",
+          "url": "https://www.cosentino.com/usa/",
+          "imagen": "datos/imagenes/goodrich/s-06-countertop.jpg",
+          "acabado": "Honed",
+          "formato": "3 cm slab, 1½\" mitered edge",
+          "color": "Verde Alpi / grey",
+          "cantidad": { "valor": 28, "unidad": "sqft" },
+          "precio_unitario": 165,
+          "notas": "Undermount sinks. Same slab used for the shower bench (see plan, S-06).",
+          "hotspot": { "render": 0, "x": 41, "y": 84 }
+        },
+        {
+          "codigo": "MW-01",
+          "categoria": "millwork",
+          "nombre": "Rift white oak vanity cabinets (existing)",
+          "ubicacion": "Double vanity",
+          "proveedor": "Existing — refinish on site",
+          "url": "",
+          "imagen": "datos/imagenes/goodrich/mw-01-cabinets.jpg",
+          "acabado": "Natural oil, matte",
+          "formato": "Existing carcass, new fronts",
+          "color": "Natural rift white oak",
+          "notas": "Cabinets stay. Only fronts and hardware are replaced.",
+          "hotspot": { "render": 0, "x": 46, "y": 90 }
+        },
+        {
+          "codigo": "P-05",
+          "categoria": "plumbing",
+          "nombre": "Wall-mount lavatory faucet, cross handles",
+          "ubicacion": "Vanity — 2 units",
+          "proveedor": "Brizo",
+          "url": "https://www.brizo.com/",
+          "imagen": "datos/imagenes/goodrich/p-05-wall-faucet.jpg",
+          "acabado": "Matte Black",
+          "formato": "Wall-mount, 8\" spout",
+          "color": "Matte Black",
+          "cantidad": { "valor": 2, "unidad": "ea" },
+          "precio_unitario": 890,
+          "notas": "Rough-in valve must be ordered separately. Confirm depth against tile build-up.",
+          "hotspot": { "render": 0, "x": 25, "y": 80 }
+        },
+        {
+          "codigo": "P-09",
+          "categoria": "plumbing",
+          "nombre": "Shower set — rain head, thermostatic valve, hand shower",
+          "ubicacion": "Shower enclosure",
+          "proveedor": "Kohler",
+          "url": "https://www.kohler.com/",
+          "imagen": "datos/imagenes/goodrich/p-09-shower-set.jpg",
+          "acabado": "Matte Black",
+          "formato": "Slide bar 24\"",
+          "color": "Matte Black",
+          "cantidad": { "valor": 1, "unidad": "set" },
+          "precio_unitario": 1640,
+          "notas": "Linear drain P-12 by others — see floor plan."
+        },
+        {
+          "codigo": "LT-18",
+          "categoria": "lighting",
+          "nombre": "Slim rod pendant, opal glass shade",
+          "ubicacion": "Over vanity — 3 units",
+          "proveedor": "Visual Comfort & Co.",
+          "url": "https://www.visualcomfort.com/",
+          "imagen": "datos/imagenes/goodrich/lt-18-pendant.jpg",
+          "acabado": "Matte black rod / opal glass",
+          "formato": "Adjustable drop 24\"–48\"",
+          "color": "Matte Black / Opal",
+          "cantidad": { "valor": 3, "unidad": "ea" },
+          "precio_unitario": 460,
+          "notas": "Center at 66\" AFF. Dimmable, 2700K.",
+          "hotspot": { "render": 0, "x": 41, "y": 51 }
+        },
+        {
+          "codigo": "F-04",
+          "categoria": "furniture",
+          "nombre": "Athens ottoman (x2)",
+          "ubicacion": "Under vanity",
+          "proveedor": "Arteriors",
+          "url": "https://www.arteriorshome.com/",
+          "imagen": "datos/imagenes/goodrich/f-04-athens-ottoman.jpg",
+          "acabado": "Bouclé upholstery",
+          "formato": "18\" x 18\" x 18\"",
+          "color": "Moss green",
+          "cantidad": { "valor": 2, "unidad": "ea" },
+          "precio_unitario": 720,
+          "hotspot": { "render": 0, "x": 65, "y": 87 }
+        },
+        {
+          "codigo": "AC-01",
+          "categoria": "accessory",
+          "nombre": "Wall-mounted towel warmer",
+          "ubicacion": "Wall opposite vanity",
+          "proveedor": "Runtal",
+          "url": "https://www.runtalnorthamerica.com/",
+          "imagen": "datos/imagenes/goodrich/ac-01-towel-warmer.jpg",
+          "acabado": "Brushed brass",
+          "formato": "24\" w x 32\" h",
+          "color": "Brass",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 1180,
+          "notas": "Hardwired. Coordinate rough-in with electrician before tile.",
+          "hotspot": { "render": 0, "x": 80, "y": 59 }
+        },
+        {
+          "codigo": "BH-04",
+          "categoria": "hardware",
+          "nombre": "Cabinet pull, knurled bar",
+          "ubicacion": "Vanity fronts",
+          "proveedor": "Emtek",
+          "url": "https://www.emtek.com/",
+          "imagen": "",
+          "acabado": "Matte Black",
+          "formato": "6\" c-to-c",
+          "color": "Matte Black",
+          "cantidad": { "valor": 8, "unidad": "ea" },
+          "precio_unitario": 62
+        }
+      ]
+    },
+
+    {
+      "id": "great-room",
+      "nombre": "Great Room",
+      "planos": [
+        {
+          "titulo": "FLOOR PLAN",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/great_room_floor_plan.jpeg"
+        }
+      ],
+      "renders": [
+        {
+          "titulo": "RENDERING — Overall",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/great_room_renderings_1.jpeg"
+        },
+        {
+          "titulo": "RENDERING — Toward fireplace",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/great_room_renderings_2.jpeg"
+        },
+        {
+          "titulo": "RENDERING — Seating",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/great_room_renderings_3.jpeg"
+        }
+      ],
+      "elementos": [
+        {
+          "codigo": "S-01",
+          "categoria": "stone",
+          "nombre": "Quartzite feature slab — fireplace surround",
+          "ubicacion": "Fireplace — full height",
+          "proveedor": "MILLIMETER by Casanova",
+          "url": "https://www.millimeterbycasanova.com/",
+          "imagen": "datos/imagenes/goodrich/s-01-quartzite-slab.jpg",
+          "acabado": "Honed",
+          "formato": "Book-matched, 2 cm + 5 mm returns",
+          "color": "Fusion quartzite — brown / blue",
+          "cantidad": { "valor": 118, "unidad": "sqft" },
+          "precio_unitario": 210,
+          "notas": "Candidato ideal para MILLIMETER 5 mm en retornos y cantos: mismo bloque, sin sobrepeso en la estructura.",
+          "hotspot": { "render": 0, "x": 48, "y": 54 }
+        },
+        {
+          "codigo": "S-02",
+          "categoria": "stone",
+          "nombre": "Reeded travertine — hearth base",
+          "ubicacion": "Fireplace base / hearth",
+          "proveedor": "MILLIMETER by Casanova",
+          "url": "https://www.millimeterbycasanova.com/",
+          "imagen": "datos/imagenes/goodrich/s-02-reeded-travertine.jpg",
+          "acabado": "Reeded / fluted, honed",
+          "formato": "Custom fluting, 20 mm pitch",
+          "color": "Cream Travertine",
+          "cantidad": { "valor": 42, "unidad": "sqft" },
+          "precio_unitario": 168
+        },
+        {
+          "codigo": "MW-02",
+          "categoria": "millwork",
+          "nombre": "Charred wood panel — shelving wall",
+          "ubicacion": "Right of fireplace",
+          "proveedor": "reSAWN Timber",
+          "url": "https://www.resawntimberco.com/",
+          "imagen": "datos/imagenes/goodrich/mw-02-charred-wood.jpg",
+          "acabado": "Shou sugi ban, matte sealer",
+          "formato": "Vertical planks, 5\" face",
+          "color": "Charcoal blue-black",
+          "cantidad": { "valor": 64, "unidad": "sqft" },
+          "precio_unitario": 42,
+          "hotspot": { "render": 0, "x": 56, "y": 51 }
+        },
+        {
+          "codigo": "TX-01",
+          "categoria": "textile",
+          "nombre": "Leather strap detail — shelf fronts",
+          "ubicacion": "Shelving wall",
+          "proveedor": "Edelman Leather",
+          "url": "https://www.edelmanleather.com/",
+          "imagen": "datos/imagenes/goodrich/tx-01-leather-strap.jpg",
+          "acabado": "Full grain",
+          "formato": "4\" strap",
+          "color": "Oxblood"
+        },
+        {
+          "codigo": "MW-03",
+          "categoria": "millwork",
+          "nombre": "White oak plank flooring",
+          "ubicacion": "Throughout",
+          "proveedor": "Carlisle Wide Plank Floors",
+          "url": "https://www.wideplankflooring.com/",
+          "imagen": "datos/imagenes/goodrich/mw-03-white-oak.jpg",
+          "acabado": "Wire-brushed, hardwax oil",
+          "formato": "9\" wide plank",
+          "color": "Weathered natural",
+          "cantidad": { "valor": 840, "unidad": "sqft" },
+          "precio_unitario": 18,
+          "hotspot": { "render": 0, "x": 72, "y": 90 }
+        },
+        {
+          "codigo": "LT-01",
+          "categoria": "lighting",
+          "nombre": "Antler chandelier — polished nickel",
+          "ubicacion": "Great room — 2 units",
+          "proveedor": "Arteriors",
+          "url": "https://www.arteriorshome.com/",
+          "imagen": "datos/imagenes/goodrich/lt-01-antler-chandelier.jpg",
+          "acabado": "Polished nickel",
+          "formato": "42\" dia.",
+          "color": "Nickel",
+          "cantidad": { "valor": 2, "unidad": "ea" },
+          "precio_unitario": 4200,
+          "hotspot": { "render": 0, "x": 61, "y": 38 }
+        },
+        {
+          "codigo": "AC-02",
+          "categoria": "accessory",
+          "nombre": "Linear gas fireplace, 3-sided",
+          "ubicacion": "Great room",
+          "proveedor": "Ortal Heat",
+          "url": "https://ortalheat.com/",
+          "imagen": "datos/imagenes/goodrich/ac-02-linear-fireplace.jpg",
+          "acabado": "Black steel frame",
+          "formato": "75\" opening",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 12400,
+          "hotspot": { "render": 0, "x": 50, "y": 69 }
+        },
+        {
+          "codigo": "F-01",
+          "categoria": "furniture",
+          "nombre": "Modular sectional sofa",
+          "ubicacion": "Great room — main seating",
+          "proveedor": "Restoration Hardware",
+          "url": "https://rh.com/",
+          "imagen": "datos/imagenes/goodrich/f-01-sectional-sofa.jpg",
+          "acabado": "Performance textured linen",
+          "formato": "L-shape, 148\" x 106\"",
+          "color": "Ivory",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 9800,
+          "hotspot": { "render": 0, "x": 24, "y": 71 }
+        },
+        {
+          "codigo": "F-02",
+          "categoria": "furniture",
+          "nombre": "Reclaimed oak coffee table",
+          "ubicacion": "Great room",
+          "proveedor": "Four Hands",
+          "url": "https://fourhands.com/",
+          "imagen": "datos/imagenes/goodrich/f-02-coffee-table.jpg",
+          "acabado": "Natural, waxed",
+          "formato": "60\" x 40\" x 16\" h",
+          "color": "Weathered oak",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 3100,
+          "hotspot": { "render": 0, "x": 35, "y": 77 }
+        },
+        {
+          "codigo": "TX-02",
+          "categoria": "textile",
+          "nombre": "Hide patchwork area rug",
+          "ubicacion": "Under main seating",
+          "proveedor": "Kyle Bunting",
+          "url": "https://kylebunting.com/",
+          "imagen": "datos/imagenes/goodrich/tx-02-area-rug.jpg",
+          "acabado": "Hair-on hide",
+          "formato": "12' x 15', custom",
+          "color": "Grey / bone",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 14500,
+          "hotspot": { "render": 0, "x": 49, "y": 89 }
+        },
+        {
+          "codigo": "LT-03",
+          "categoria": "lighting",
+          "nombre": "Brass floor lamp with linen shade",
+          "ubicacion": "Beside sectional",
+          "proveedor": "Visual Comfort & Co.",
+          "url": "https://www.visualcomfort.com/",
+          "imagen": "datos/imagenes/goodrich/lt-03-floor-lamp.jpg",
+          "acabado": "Antique brass",
+          "formato": "62\" h",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 1350,
+          "hotspot": { "render": 0, "x": 14, "y": 62 }
+        },
+        {
+          "codigo": "AC-03",
+          "categoria": "accessory",
+          "nombre": "Beaded wood wall sculpture",
+          "ubicacion": "Living wall",
+          "proveedor": "Made Goods",
+          "url": "https://www.madegoods.com/",
+          "imagen": "datos/imagenes/goodrich/ac-03-wall-art.jpg",
+          "acabado": "Turned wood beads on rod",
+          "formato": "72\" x 60\"",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 5600
+        },
+        {
+          "codigo": "F-03",
+          "categoria": "furniture",
+          "nombre": "Bronze drum side table",
+          "ubicacion": "Sectional ends — 2 units",
+          "proveedor": "Made Goods",
+          "url": "https://www.madegoods.com/",
+          "imagen": "datos/imagenes/goodrich/f-03-side-table.jpg",
+          "acabado": "Cast bronze, patinated",
+          "formato": "16\" dia. x 22\" h",
+          "cantidad": { "valor": 2, "unidad": "ea" },
+          "precio_unitario": 1900
+        },
+        {
+          "codigo": "LT-02",
+          "categoria": "lighting",
+          "nombre": "Crystal antler chandelier",
+          "ubicacion": "Living area",
+          "proveedor": "Arteriors",
+          "url": "https://www.arteriorshome.com/",
+          "imagen": "datos/imagenes/goodrich/lt-02-crystal-chandelier.jpg",
+          "acabado": "Clear crystal / nickel",
+          "formato": "48\" dia.",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 6800
+        }
+      ]
+    },
+
+    {
+      "id": "dining-room",
+      "nombre": "Dining Room",
+      "planos": [
+        {
+          "titulo": "FLOOR PLAN",
+          "imagen": "aspen_leaf_interiors/project_graphic_process_example/dining_floor_plan.jpeg"
+        }
+      ],
+      "renders": [],
+      "elementos": [
+        {
+          "codigo": "F-05",
+          "categoria": "furniture",
+          "nombre": "Walnut extension dining table",
+          "ubicacion": "Dining room — center",
+          "proveedor": "Costantini Design",
+          "url": "https://costantinidesign.com/",
+          "imagen": "datos/imagenes/goodrich/f-05-dining-table.jpg",
+          "acabado": "Hand-rubbed oil",
+          "formato": "108\" extending to 144\"",
+          "color": "Solid walnut",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 18500
+        },
+        {
+          "codigo": "F-06",
+          "categoria": "furniture",
+          "nombre": "Oak dining chair, leather seat",
+          "ubicacion": "Dining room — 10 units",
+          "proveedor": "Costantini Design",
+          "url": "https://costantinidesign.com/",
+          "imagen": "datos/imagenes/goodrich/f-06-dining-chair.jpg",
+          "acabado": "Cerused oak / full grain leather",
+          "formato": "Side chair",
+          "color": "Natural oak / oxblood",
+          "cantidad": { "valor": 10, "unidad": "ea" },
+          "precio_unitario": 1650
+        },
+        {
+          "codigo": "LT-04",
+          "categoria": "lighting",
+          "nombre": "Cascading crystal fixture",
+          "ubicacion": "Over dining table",
+          "proveedor": "Ochre",
+          "url": "https://www.ochre.net/",
+          "imagen": "datos/imagenes/goodrich/lt-04-crystal-fixture.jpg",
+          "acabado": "Cast glass on bronze frame",
+          "formato": "96\" x 30\", custom drop",
+          "cantidad": { "valor": 1, "unidad": "ea" },
+          "precio_unitario": 26000,
+          "notas": "Custom drop — confirm ceiling height on site before releasing to production."
+        },
+        {
+          "codigo": "MW-04",
+          "categoria": "millwork",
+          "nombre": "Walnut veneer — buffet wall",
+          "ubicacion": "Dining room — east wall",
+          "proveedor": "Local millwork shop",
+          "url": "",
+          "imagen": "datos/imagenes/goodrich/mw-04-walnut-veneer.jpg",
+          "acabado": "Rift cut, satin lacquer",
+          "formato": "Sequence-matched panels",
+          "color": "Dark walnut",
+          "cantidad": { "valor": 86, "unidad": "sqft" },
+          "precio_unitario": 54
+        },
+        {
+          "codigo": "MW-05",
+          "categoria": "millwork",
+          "nombre": "Light oak accent veneer",
+          "ubicacion": "Buffet interior / niches",
+          "proveedor": "Local millwork shop",
+          "url": "",
+          "imagen": "datos/imagenes/goodrich/mw-05-light-oak.jpg",
+          "acabado": "Cerused, matte",
+          "formato": "Sequence-matched panels",
+          "color": "Bleached oak"
+        },
+        {
+          "codigo": "TX-03",
+          "categoria": "textile",
+          "nombre": "Oxblood leather — chair seats",
+          "ubicacion": "Dining chairs",
+          "proveedor": "Edelman Leather",
+          "url": "https://www.edelmanleather.com/",
+          "imagen": "datos/imagenes/goodrich/tx-03-burgundy-leather.jpg",
+          "acabado": "Full grain, pebbled",
+          "color": "Oxblood",
+          "cantidad": { "valor": 32, "unidad": "sqft" },
+          "precio_unitario": 96
+        }
+      ]
+    }
+  ]
+}

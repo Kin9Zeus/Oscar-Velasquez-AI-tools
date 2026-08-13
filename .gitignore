@@ -1,0 +1,35 @@
+# Salidas generadas — se regeneran con: node herramientas/generar.js
+salidas/
+
+# Material interno de Aleck — no se comparte en el repositorio.
+# Contiene la conversación comercial de la reunión inicial. Se conserva
+# en la carpeta local, pero fuera del control de versiones.
+transcripcion_reunion_inicial_gemini_oscar.md
+
+# Credenciales — nunca deben entrar al repositorio
+.env
+.env.*
+credenciales/
+*.key
+*.pem
+client_secret*.json
+token*.json
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+._*
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Temporales
+*.tmp
+~$*
